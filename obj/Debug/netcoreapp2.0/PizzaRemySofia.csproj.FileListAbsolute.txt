@@ -1,0 +1,10 @@
+C:\Users\MMarinov\Desktop\PizzaRemySofia\bin\Debug\netcoreapp2.0\PizzaRemySofia.deps.json
+C:\Users\MMarinov\Desktop\PizzaRemySofia\bin\Debug\netcoreapp2.0\PizzaRemySofia.runtimeconfig.json
+C:\Users\MMarinov\Desktop\PizzaRemySofia\bin\Debug\netcoreapp2.0\PizzaRemySofia.runtimeconfig.dev.json
+C:\Users\MMarinov\Desktop\PizzaRemySofia\bin\Debug\netcoreapp2.0\PizzaRemySofia.dll
+C:\Users\MMarinov\Desktop\PizzaRemySofia\bin\Debug\netcoreapp2.0\PizzaRemySofia.pdb
+C:\Users\MMarinov\Desktop\PizzaRemySofia\obj\Debug\netcoreapp2.0\PizzaRemySofia.csproj.CoreCompileInputs.cache
+C:\Users\MMarinov\Desktop\PizzaRemySofia\obj\Debug\netcoreapp2.0\PizzaRemySofia.AssemblyInfoInputs.cache
+C:\Users\MMarinov\Desktop\PizzaRemySofia\obj\Debug\netcoreapp2.0\PizzaRemySofia.AssemblyInfo.cs
+C:\Users\MMarinov\Desktop\PizzaRemySofia\obj\Debug\netcoreapp2.0\PizzaRemySofia.dll
+C:\Users\MMarinov\Desktop\PizzaRemySofia\obj\Debug\netcoreapp2.0\PizzaRemySofia.pdb
