@@ -1,4 +1,13 @@
+@model PizzaRemySofia.Models.MenuViewModel
+
 @{
-    ViewData["Title"] = "Contact";
+    ViewData["Title"] = "Меню";
 }
 
+@foreach (var cat in Model.Items)
+{
+    <h4>
+        @cat.Key.NameBg 
+        / @cat.Key.NameEn
+    </h4>
+}
