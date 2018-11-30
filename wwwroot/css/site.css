@@ -41,6 +41,12 @@
     margin-bottom: 10px;
 }
 
+.navbar-brand > img.nav-logo{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
