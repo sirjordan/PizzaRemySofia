@@ -7,6 +7,14 @@
     color: #3D2315;
 }
 
+a {
+    color: #962D19;
+}
+
+hr{
+    border-top: 1px solid #962D19;
+}
+
 .navbar-inverse{
     background-color: #FFF8DC;
     border-color: #DEB887;
@@ -27,6 +35,8 @@
 
 .body-content{
     background-color: #FFF8DC;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .menu-category{
@@ -41,7 +51,7 @@
     margin-bottom: 10px;
 }
 
-.navbar-brand > img.nav-logo{
+.navbar-brand > img {
     display: inline-block;
     width: 24px;
     height: 24px;

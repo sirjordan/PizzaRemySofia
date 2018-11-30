@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Пица-Ресторант Реми</title>
+    <title>@ViewData["Title"] | Пица-Ресторант Реми</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -27,7 +27,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
-                    <img src="~/images/logo.png" alt="logo" width="24" height="24" class="nav-logo"/>
+                    <img src="~/images/logo.png" alt="logo" width="24" height="24" />
                     Пица-Ресторант Реми
                 </a>
             </div>
@@ -37,6 +37,11 @@
                     <li><a asp-area="" asp-controller="Menu" asp-action="Index">Меню</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Gallery">Галерия</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Контакти</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/PizzaRemySofia/" target="_blank">
+                            <img src="~/images/fb.png" alt="facebook" width="20" height="20" />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -45,7 +50,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Пица-Ресторант Реми | Sofia</p>
+            <p>&copy; @DateTime.Now.Year - Пица-Ресторант Реми | София</p>
         </footer>
     </div>
 
