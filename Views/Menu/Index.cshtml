@@ -1,3 +1,4 @@
+@using System.Globalization;
 @model PizzaRemySofia.Models.MenuViewModel
 
 @{
@@ -6,8 +7,38 @@
 
 @foreach (var cat in Model.Items)
 {
-    <h4>
-        @cat.Key.NameBg 
-        / @cat.Key.NameEn
-    </h4>
+    <div>
+        <h4 class="menu-category">
+            @cat.Key.NameBg / 
+            <span class="menu-en"> 
+                @cat.Key.NameEn
+            </span>
+        </h4>
+
+        @foreach (var menuItem in cat.Value)
+        {
+            <div class="menu-item">
+                <div class="row">
+                    <div class="col-sm-10">
+                        @menuItem.NameBg / 
+                        <span class="menu-en"> 
+                            @menuItem.NameEn
+                        </span>
+                    </div>
+                    <div class="col-sm-1">
+                        @menuItem.Weight гр.
+                    </div>
+                    <div class="col-sm-1">
+                        @menuItem.Price.ToString("c", new CultureInfo("bg-BG"))
+                    </div>
+                </div> 
+                <div>
+                    @menuItem.DescriptionBg
+                </div>
+                <div class="menu-en">
+                    @menuItem.DescriptionEn
+                </div>
+            </div>
+        }
+    </div>
 }
