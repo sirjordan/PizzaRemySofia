@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<address>
+    ж.к Младост 3 бл.325<br />
+    София<br />
+    <abbr title="Телефон">тел.:</abbr>
+    0883 123 456
+</address>
+
+<map>
+    <div id="map"></div>
+</map>
+
+<address>
+    <strong>Резервации:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Доставка:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
+@section Scripts {
+    <script>
+        function initMap() {
+            var remy = {lat: 42.6371538, lng: 23.3752447};
+            var map = new google.maps.Map(document.getElementById('map'), {zoom: 16, center: remy});
+            var marker = new google.maps.Marker({position: remy, map: map});
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxzRrGeN4gyOMff0IFfW68PlfzQKy8fMA&callback=initMap">
+    </script>
+}
