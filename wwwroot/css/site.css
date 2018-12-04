@@ -57,6 +57,12 @@ hr{
     height: 24px;
 }
 
+.gallery-grid img{
+    width: 100%;
+    border-radius: 2px;
+    box-shadow:  2px 2px 5px 1px #aaa;
+}
+
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
